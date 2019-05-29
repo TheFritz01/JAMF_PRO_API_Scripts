@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##
-## Script name:  Get_Archived_Profiless.sh
+## Script name:  Get_Archived_Profiles.sh
 ## Author:       Aaron Stovall
 ## Date:  	 05/29/2019
 ##
