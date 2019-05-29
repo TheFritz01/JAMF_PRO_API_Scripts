@@ -1,19 +1,19 @@
 #!/bin/bash
 
 ##
-## Script name: Unused_Category_Report.sh
-## Author:      Aaron Stovall
-## Date:  		05/29/2019
+## Script name:  Unused_Category_Report.sh
+## Author:       Aaron Stovall
+## Date:  	 05/29/2019
 ##
-## Description: Checks all JSS Categories that do not have any active Profiles, Scripts, Policies, or Packages
-##				associated with it. Outputs the Unused Categories to a txt file.
+## Description:  Checks all JSS Categories that do not have any active Profiles, Scripts, Policies, or Packages
+##		 associated with it. Outputs the Unused Categories to a txt file.
 ##
 ## Dependencies: - API Account with permissions to read categories.
-##				 - A Base64 Encrypted username:password (https://www.base64encode.org) 
-##				   (Example: "jamfapiuser:MySuperSecretPassword" would be "amFtZmFwaXVzZXI6TXlTdXBlclNlY3JldFBhc3N3b3Jk")
+##	   	 - A Base64 Encrypted username:password (https://www.base64encode.org) 
+##		   (Example: "jamfapiuser:MySuperSecretPassword" would be "amFtZmFwaXVzZXI6TXlTdXBlclNlY3JldFBhc3N3b3Jk")
 ##
-## Notes: 		It is strongly advised to TEST, TEST, TEST this against a sandbox environment!
-##				This script is provided AS-IS. I am not responsible for any loss of data from the use of this script. 
+## Notes:        It is strongly advised to TEST, TEST, TEST this against a sandbox environment!
+##		 This script is provided AS-IS. I am not responsible for any loss of data from the use of this script. 
 ##
 
 
