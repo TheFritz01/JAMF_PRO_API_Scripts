@@ -19,7 +19,8 @@
 ##
 
 ## API information, and JSS base URL (leave off trailing slash in JSS URL)
-API_AUTH=$(echo `echo <Base64 Encoded Password> | base64 --decode`) # Make sure to update with your Base64 encoded password!
+# Make sure to update with your Base64 encoded password and JSS URL!
+API_AUTH=$(echo `echo <Base64 Encoded Password> | base64 --decode`) #Do not include < > around your encoded password!
 JSSURL="https://jss.yourserver.com"
 
 ## Archive Category to check (Default is zArchived Scripts" but you can change this to one of your choosing)
