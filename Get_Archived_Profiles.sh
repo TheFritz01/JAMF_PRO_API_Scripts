@@ -1,20 +1,20 @@
 #!/bin/bash
 
 ##
-## Script name: Get_Archived_Profiless.sh
-## Author:      Aaron Stovall
-## Date:  		05/29/2019
+## Script name:  Get_Archived_Profiless.sh
+## Author:       Aaron Stovall
+## Date:  	 05/29/2019
 ##
-## Description: Checks for all Configuration Profiles that are associated with the "zArchived Profiles" Category
-## 				and will prompt to confirm deletion. 
+## Description:  Checks for all Configuration Profiles that are associated with the "zArchived Profiles" Category
+## 		 and will prompt to confirm deletion. 
 ##
 ## Dependencies: - API Account with permissions to read and delete profiles
-##				 - A category called "zArchived Profiles" (This can be changed to any category of your choosing)
-##				 - A Base64 Encrypted username:password (https://www.base64encode.org) 
-##				   (Example: "jamfapiuser:MySuperSecretPassword" would be "amFtZmFwaXVzZXI6TXlTdXBlclNlY3JldFBhc3N3b3Jk")
+##		 - A category called "zArchived Profiles" (This can be changed to any category of your choosing)
+##		 - A Base64 Encrypted username:password (https://www.base64encode.org) 
+##		   (Example: "jamfapiuser:MySuperSecretPassword" would be "amFtZmFwaXVzZXI6TXlTdXBlclNlY3JldFBhc3N3b3Jk")
 ##
-## Notes: 		It is strongly advised to TEST, TEST, TEST this against a sandbox environment!
-##				This script is provided AS-IS. I am not responsible for any loss of data from the use of this script. 
+## Notes: 	 It is strongly advised to TEST, TEST, TEST this against a sandbox environment!
+##		 This script is provided AS-IS. I am not responsible for any loss of data from the use of this script. 
 ##
 
 ## API information, and JSS base URL (leave off trailing slash in JSS URL)
@@ -117,5 +117,6 @@ else
 fi
 
 echo "Script Completed."
-
 exit 0
+
+##### Main Script ##### 
