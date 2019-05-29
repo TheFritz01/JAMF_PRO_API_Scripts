@@ -9,7 +9,7 @@
 ## 		 and will prompt to confirm to if you want to disable the policy and also gives the 
 ##		 option to delete the policy. 
 ##
-## Dependencies: - API Account with permissions to read and delete policies
+## Dependencies: - API Account with permissions to read, modify and delete policies
 ##		 - A category called "zArchived Policies" (This can be changed to any category of your choosing)
 ##		 - A Base64 Encrypted username:password (https://www.base64encode.org) 
 ##		   (Example: "jamfapiuser:MySuperSecretPassword" would be "amFtZmFwaXVzZXI6TXlTdXBlclNlY3JldFBhc3N3b3Jk")
